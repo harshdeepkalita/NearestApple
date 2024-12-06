@@ -66,15 +66,6 @@ Pipeline Summary
 	4.	YOLO Filtering: YOLO bounding boxes are used to validate SAM masks.
 	5.	Median Depth: Filtered masks are compared using their median depth values.
 
-Output
-
-	•	Visualizations:
-	•	The depth map.
-	•	Filtered SAM masks overlaid on the original image.
-	•	Highlighted masks (e.g., closest or farthest) in distinct colors.
-	•	Data:
-	•	Median depth values for each filtered mask.
-	•	Bounding boxes and areas of the selected masks.
 
 Key Parameters to Tune
 
@@ -82,4 +73,3 @@ Key Parameters to Tune
 	•	IoU Threshold: Controls how closely SAM masks must match YOLO detections.
 	•	Depth Map Inversion: Invert depth values for better visualization, if needed.
 
-Let me know if you’d like further clarification or enhancements! 🚀
